@@ -7,8 +7,7 @@ public class Main {
         System.out.println("Nhập sô cần xóa: ");
         int number = sc.nextInt();
         boolean flag = false;
-        int doDai = array.length;
-        for (int i = 0; i < array.length; i++) {
+        for (int i = 0; i < array.length -1; i++) {
             if (number == array[i]) {
                 System.out.println("Sô này năm trong mảng ở vị trí: " + i);
                 flag = true;
@@ -25,4 +24,3 @@ public class Main {
     }
 
 }
-
